@@ -72,21 +72,32 @@ The API implements basic error handling for common issues. For example:
 ## Installation
 <a name="instalation"></a>
 You can copy the following code if you like (BASH):
+
 **1.** Clone the repository to your local machine:
-   ```bash
-         git clone https://github.com/fidelfunez/flask-api-project.git
-   ```
-- (`cd flask-api-project`)
+```bash
+git clone https://github.com/fidelfunez/flask-api-project.git
+```
+```bash
+cd flask-api-project
+```
 
 **2.** Create a virtual environment and activate it:
-- (`python3 -m venv venv`)
-- (`source venv/bin/activate`)
+```bash
+python3 -m venv venv
+```
+```bash
+source venv/bin/activate
+```
 
 **3.** Install the required dependencies:
-- (`pip install -r requirements.txt`)
+```bash
+pip install -r requirements.txt
+```
 
 **4.** Run the Flask app:
-- (`flask run`)
+```bash
+flask run
+```
 
 ## API Endpoints
 <a name="api-endpoints"></a>
