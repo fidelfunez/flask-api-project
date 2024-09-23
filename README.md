@@ -73,7 +73,7 @@ The API implements basic error handling for common issues. For example:
 <a name="instalation"></a>
 You can copy the following code if you like (BASH):
 
-**1.** Clone the repository to your local machine:
+**1. Clone the repository to your local machine:**
 ```bash
 git clone https://github.com/fidelfunez/flask-api-project.git
 ```
@@ -81,7 +81,7 @@ git clone https://github.com/fidelfunez/flask-api-project.git
 cd flask-api-project
 ```
 
-**2.** Create a virtual environment and activate it:
+**2. Create a virtual environment and activate it:**
 ```bash
 python3 -m venv venv
 ```
@@ -89,12 +89,12 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-**3.** Install the required dependencies:
+**3. Install the required dependencies:**
 ```bash
 pip install -r requirements.txt
 ```
 
-**4.** Run the Flask app:
+**4. Run the Flask app:**
 ```bash
 flask run
 ```
@@ -103,7 +103,7 @@ flask run
 <a name="api-endpoints"></a>
 You can copy the following code if you like (json):
 
-**1.** Login (Generate Token):
+**1. Login (Generate Token):**
 - URL: `/login`
 - Method: `POST`
 - Data:
@@ -117,7 +117,7 @@ You can copy the following code if you like (json):
   "access_token": "your_jwt_token"
 }`
 
-**2.** Get All Users:
+**2. Get All Users:**
 - URL: `/users`
 - Method: `GET`
 - Headers:
@@ -133,7 +133,7 @@ You can copy the following code if you like (json):
   ]
 }`
 
-**3.** Create User:
+**3. Create User:**
 - URL: `/users`
 - Method: `POST`
 - Data:
@@ -142,7 +142,7 @@ You can copy the following code if you like (json):
   "email": "john@example.com"
 }`
 
-**4.** Update User
+**4. Update User**
 - URL: `/users/<user_id>`
 - Method: `PUT`
 - Data:
@@ -150,7 +150,7 @@ You can copy the following code if you like (json):
   "name": "Updated Name"
 }`
 
-**5.** Delete User
+**5. Delete User**
 - URL: (`/users/<user_id>`)
 - Method: (`DELETE`)
 
@@ -164,17 +164,17 @@ If you want to deploy your own version on Heroku:
 
 You can copy the code if you like (BASH):
 
-**1.** Create a new Heroku app -
+**1. Create a new Heroku app:**
 ```bash
 heroku create your-app-name
 ```
 
-**2.** Push your code to Heroku:
+**2. Push your code to Heroku:**
 ```bash
 git push heroku main
 ```
 
-**3.** Scale the web dyno:
+**3. Scale the web dyno:**
 ```bash
 heroku ps:scale web=1
 ```
