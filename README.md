@@ -1,5 +1,5 @@
-# Flask API Project
-**Project Overview:**
+## Flask API Project
+
 ## Project Overview
 <a name="project-overview"></a>
 This project is a simple RESTful API built with Python's Flask framework, demonstrating how to manage user data with token-based authentication (JWT) and perform basic CRUD (Create, Read, Update, Delete) operations on a user database. The API is deployed on Heroku, making it accessible over the web.
@@ -18,7 +18,7 @@ This project is a simple RESTful API built with Python's Flask framework, demons
 7. [Future Improvements](#future-improvements)
 8. [License](#license)
 
-# Features:
+## Features:
 <a name="features"></a>
 
 - User Authentication: Login functionality that generates a JSON Web Token (JWT) for secure access to protected endpoints.
@@ -30,26 +30,26 @@ This project is a simple RESTful API built with Python's Flask framework, demons
   
 - Error Handling: Basic error handling for common HTTP errors (404, 500, etc.).
 
-# Technologies Used:
+## Technologies Used:
 <a name="technologies-used"></a>
-- Python: Main programming language.
-- Flask: Web framework for building the API.
-- Flask-SQLAlchemy: ORM (Object Relational Mapper) for database management.
-- Flask-JWT-Extended: For handling authentication with JSON Web Tokens.
-- Gunicorn: WSGI server for deploying the app on Heroku.
-- Heroku: Cloud platform for deploying the application.
+- [Python](https://www.python.org/): Main programming language.
+- [Flask](https://flask.palletsprojects.com/): Web framework for building the API.
+- [Flask-SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/): ORM (Object Relational Mapper) for database management.
+- [Flask-JWT-Extended](https://flask-jwt-extended.readthedocs.io/): For handling authentication with JSON Web Tokens.
+- [Gunicorn](https://gunicorn.org/): WSGI server for deploying the app on Heroku.
+- [Heroku](https://www.heroku.com/): Cloud platform for deploying the application.
 
-# Getting Started
+## Getting Started
 <a name="getting-started"></a>
 **Disclaimer: These steps are primarily for someone who wants to recreate the project on their own machine or deploy it themselves, but they can also be used to run and interact with the already-deployed project (mine).**
 - To recreate the project, follow these steps:
 
-# Prerequisites
+## Prerequisites
 <a name="prerequisites"></a>
 - Python 3.x installed on your machine
 - pip for managing Python packages
 
-# Installation
+## Installation
 <a name="instalation"></a>
 **1.** Clone the repository to your local machine -
 You can copy the following code if you like (BASH):
@@ -66,7 +66,7 @@ You can copy the following code if you like (BASH):
 **4.** Run the Flask app:
 - flask run
 
-# API Endpoints
+## API Endpoints
 <a name="api-endpoints"></a>
 **1.** Login (Generate Token) - You can copy the following code if you like (json):
 - URL: /login
@@ -119,7 +119,7 @@ You can copy the following code if you like (BASH):
 - URL: /users/<user_id>
 - Method: DELETE
 
-# Deployment
+## Deployment
 <a name="deployment"></a>
 The API is deployed on Heroku at this URL: https://flask-api-project-eff327bad6ee.herokuapp.com/. You can use the endpoints as described above by replacing the localhost URLs with the live link.
 
@@ -137,12 +137,12 @@ Copy code if you like (BASH):
 **3.** Scale the web dyno:
 - heroku ps:scale web=1
   
-# Future Improvements
+## Future Improvements
 <a name="future-improvements"></a>
 - Add pagination for user retrieval.
 - Implement user role management for admin-level access.
 - Improve error handling and logging.
 
-# License
+## License
 <a name="license"></a>
 This project is licensed under the MIT License - see the LICENSE file for details.
