@@ -31,7 +31,7 @@ This project is a simple RESTful API built with Python's Flask framework, demons
   
 - ### Error Handling
 
-The API implements basic error handling for common issues. For example:
+   The API implements basic error handling for common issues. For example:
 
 - **404 Not Found**: When trying to access a user that doesn't exist.
   
