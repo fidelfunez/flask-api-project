@@ -102,7 +102,7 @@ The API is deployed on Heroku at this URL: https://flask-api-project-eff327bad6e
 
 **Deploy to Heroku**
 
-If you want to deploy your own version on Heroku:
+**If you want to deploy your own version on Heroku:**
 -
 **1.** Create a new Heroku app -
 Copy code if you like (BASH):
