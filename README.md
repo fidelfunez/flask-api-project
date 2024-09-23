@@ -144,6 +144,18 @@ Copy code if you like (BASH):
 - Implement user role management for admin-level access.
 - Improve error handling and logging.
 
+## Contributing
+
+Contributions are welcome! If you'd like to contribute, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes and commit (`git commit -m 'Added new feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Open a Pull Request.
+
+For major changes, please open an issue first to discuss what you'd like to change.
+
 ## License
 <a name="license"></a>
 This project is licensed under the MIT License - see the LICENSE file for details.
