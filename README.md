@@ -30,7 +30,7 @@ Error Handling: Basic error handling for common HTTP errors (404, 500, etc.).
 - pip for managing Python packages
 
 # Installation
-**1.** Clone the repository to your local machine: -
+**1.** Clone the repository to your local machine -
 You can copy the following code if you like (BASH):
 - git clone https://github.com/fidelfunez/flask-api-project.git
 - cd flask-api-project
@@ -50,8 +50,7 @@ You can copy the following code if you like (BASH):
 - URL: /login
 - Method: POST
 - Data:
-
-  {
+{
     "username": "admin",
     "password": "password"
   }
@@ -65,13 +64,11 @@ You can copy the following code if you like (BASH):
 - URL: /users
 - Method: GET
 - Headers:
-  
 {
   "Authorization": "Bearer your_jwt_token"
 }
 
 - Response:
-
 {
   "users": [
     {"id": 1, "name": "Jane Doe", "email": "jane@example.com"},
@@ -83,7 +80,6 @@ You can copy the following code if you like (BASH):
 - URL: /users
 - Method: POST
 - Data:
-
 {
   "name": "John Doe",
   "email": "john@example.com"
@@ -93,7 +89,6 @@ You can copy the following code if you like (BASH):
 - URL: /users/<user_id>
 - Method: PUT
 - Data:
-
 {
   "name": "Updated Name"
 }
