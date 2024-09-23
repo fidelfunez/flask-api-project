@@ -30,7 +30,7 @@ Error Handling: Basic error handling for common HTTP errors (404, 500, etc.).
 - pip for managing Python packages
 
 # Installation
-**1.** Clone the repository to your local machine:
+**1.** Clone the repository to your local machine: -
 You can copy the following code if you like (BASH):
 - git clone https://github.com/fidelfunez/flask-api-project.git
 - cd flask-api-project
@@ -46,12 +46,11 @@ You can copy the following code if you like (BASH):
 - flask run
 
 # API Endpoints
-**1.** Login (Generate Token):
+**1.** Login (Generate Token) - You can copy the following code if you like (json):
 - URL: /login
 - Method: POST
 - Data:
 
-  Copy code (json)
   {
     "username": "admin",
     "password": "password"
@@ -109,7 +108,7 @@ The API is deployed on Heroku at this URL: https://flask-api-project-eff327bad6e
 **Deploy to Heroku**
 If you want to deploy your own version on Heroku:
 -
-**1.** Create a new Heroku app:
+**1.** Create a new Heroku app -
 Copy code if you like (BASH):
 - heroku create your-app-name
 
