@@ -54,75 +54,75 @@ This project is a simple RESTful API built with Python's Flask framework, demons
 <a name="instalation"></a>
 **1.** Clone the repository to your local machine -
 You can copy the following code if you like (BASH):
-- git clone https://github.com/fidelfunez/flask-api-project.git
-- cd flask-api-project
+- (`git clone https://github.com/fidelfunez/flask-api-project.git`)
+- (`cd flask-api-project`)
 
 **2.** Create a virtual environment and activate it:
-- python3 -m venv venv
-- source venv/bin/activate
+- (`python3 -m venv venv`)
+- (`source venv/bin/activate`)
 
 **3.** Install the required dependencies:
-- pip install -r requirements.txt
+- (`pip install -r requirements.txt`)
 
 **4.** Run the Flask app:
-- flask run
+- (`flask run`)
 
 ## API Endpoints
 <a name="api-endpoints"></a>
 **1.** Login (Generate Token) - You can copy the following code if you like (json):
-- URL: /login
-- Method: POST
+- URL: (`/login`)
+- Method: (`POST`)
 - Data:
-{
+(`{
     "username": "admin",
     "password": "password"
-  }
+  }`)
   
 - Response:
-{
+(`{
   "access_token": "your_jwt_token"
-}
+}`)
 
 **2.** Get All Users:
-- URL: /users
-- Method: GET
+- URL: (`/users`)
+- Method: (`GET`)
 - Headers:
-{
+(`{
   "Authorization": "Bearer your_jwt_token"
-}
+}`)
 
 - Response:
-{
+(`{
   "users": [
     {"id": 1, "name": "Jane Doe", "email": "jane@example.com"},
     ...
   ]
-}
+}`)
 
 **3.** Create User:
-- URL: /users
-- Method: POST
+- URL: (`/users`)
+- Method: (`POST`)
 - Data:
-{
+(`{
   "name": "John Doe",
   "email": "john@example.com"
-}
+}`)
 
 **4.** Update User
-- URL: /users/<user_id>
-- Method: PUT
+- URL: (`/users/<user_id>`)
+- Method: (`PUT`)
 - Data:
-{
+(`{
   "name": "Updated Name"
-}
+}`)
 
 **5.** Delete User
-- URL: /users/<user_id>
-- Method: DELETE
+- URL: (`/users/<user_id>`)
+- Method: (`DELETE`)
 
 ## Deployment
 <a name="deployment"></a>
-The API is deployed on Heroku at this URL: https://flask-api-project-eff327bad6ee.herokuapp.com/. You can use the endpoints as described above by replacing the localhost URLs with the live link.
+The API is deployed on Heroku at this [URL](https://flask-api-project-eff327bad6ee.herokuapp.com/). You can use the endpoints as described above by replacing the localhost URLs with the live link.
 
 **Deploy to Heroku**
 <a name="deploy-to-heroku"></a>
@@ -130,13 +130,13 @@ If you want to deploy your own version on Heroku:
 
 **1.** Create a new Heroku app -
 Copy code if you like (BASH):
-- heroku create your-app-name
+- (`heroku create your-app-name`)
 
 **2.** Push your code to Heroku:
-- git push heroku main
+- (`git push heroku main`)
 
 **3.** Scale the web dyno:
-- heroku ps:scale web=1
+- (`heroku ps:scale web=1`)
   
 ## Future Improvements
 <a name="future-improvements"></a>
