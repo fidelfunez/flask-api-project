@@ -74,9 +74,7 @@ The API implements basic error handling for common issues. For example:
 You can copy the following code if you like (BASH):
 **1.** Clone the repository to your local machine:
    ```bash
-      {
          git clone https://github.com/fidelfunez/flask-api-project.git
-      }
    ```
 - (`cd flask-api-project`)
 
