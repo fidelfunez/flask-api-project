@@ -99,10 +99,13 @@ You can copy the following code if you like (BASH):
 
 # Deployment
 -
+
 The API is deployed on Heroku at this URL: https://flask-api-project-eff327bad6ee.herokuapp.com/. You can use the endpoints as described above by replacing the localhost URLs with the live link.
+
 -
-**Deploy to Heroku
-If you want to deploy your own version on Heroku:**
+Deploy to Heroku
+
+If you want to deploy your own version on Heroku:
 
 **1.** Create a new Heroku app -
 Copy code if you like (BASH):
