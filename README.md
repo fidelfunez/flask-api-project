@@ -43,13 +43,11 @@ The API implements basic error handling for common issues. For example:
 
 - **500 Internal Server Error:** For unexpected errors, the server will respond with a 500 status.
 
-Example Response:
-
-json
-Copy code
-{
-  "error": "Internal Server Error"
-}
+  Example Response:
+  ```json
+  {
+    "error": "Internal Server Error"
+  }
 
 ## Technologies Used:
 <a name="technologies-used"></a>
