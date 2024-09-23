@@ -104,51 +104,51 @@ flask run
 You can copy the following code if you like (json):
 
 **1.** Login (Generate Token):
-- URL: (`/login`)
-- Method: (`POST`)
+- URL: `/login`
+- Method: `POST`
 - Data:
-(`{
+`{
     "username": "admin",
     "password": "password"
-  }`)
+  }`
   
 - Response:
-(`{
+`{
   "access_token": "your_jwt_token"
-}`)
+}`
 
 **2.** Get All Users:
-- URL: (`/users`)
-- Method: (`GET`)
+- URL: `/users`
+- Method: `GET`
 - Headers:
-(`{
+`{
   "Authorization": "Bearer your_jwt_token"
-}`)
+}`
 
 - Response:
-(`{
+`{
   "users": [
     {"id": 1, "name": "Jane Doe", "email": "jane@example.com"},
     ...
   ]
-}`)
+}`
 
 **3.** Create User:
-- URL: (`/users`)
-- Method: (`POST`)
+- URL: `/users`
+- Method: `POST`
 - Data:
-(`{
+`{
   "name": "John Doe",
   "email": "john@example.com"
-}`)
+}`
 
 **4.** Update User
-- URL: (`/users/<user_id>`)
-- Method: (`PUT`)
+- URL: `/users/<user_id>`
+- Method: `PUT`
 - Data:
-(`{
+`{
   "name": "Updated Name"
-}`)
+}`
 
 **5.** Delete User
 - URL: (`/users/<user_id>`)
@@ -190,9 +190,9 @@ heroku ps:scale web=1
 Contributions are welcome! If you'd like to contribute, please follow these steps:
 
 1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes and commit (`git commit -m 'Added new feature'`).
-4. Push to the branch (`git push origin feature-branch`).
+2. Create a new branch: `git checkout -b feature-branch`.
+3. Make your changes and commit: `git commit -m 'Added new feature'`.
+4. Push to the branch: `git push origin feature-branch`.
 5. Open a Pull Request.
 
 For major changes, please open an issue first to discuss what you'd like to change.
