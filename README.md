@@ -60,7 +60,7 @@ The API implements basic error handling for common issues. For example:
 
 ## Getting Started
 <a name="getting-started"></a>
-**Disclaimer: These steps are primarily for someone who wants to recreate the project on their own machine or deploy it themselves, but they can also be used to run and interact with the already-deployed project (mine).** 
+**Disclaimer: These steps are primarily for someone who wants to recreate the project on their own machine or deploy it themselves, but they can also be used to run and interact with the already-deployed project (mine). While I've included code to copy and paste if you like, I'd encourage you to write the code yourself instead of c&p, as writing code yourself is what will help you grow and further improve in your journey specially if you're a beginner. Happy coding! - FFC.** 
 
 ### To recreate the project, follow these steps:
 
@@ -71,9 +71,13 @@ The API implements basic error handling for common issues. For example:
 
 ## Installation
 <a name="instalation"></a>
-**1.** Clone the repository to your local machine -
 You can copy the following code if you like (BASH):
-- (`git clone https://github.com/fidelfunez/flask-api-project.git`)
+**1.** Clone the repository to your local machine:
+   ```bash
+      {
+         git clone https://github.com/fidelfunez/flask-api-project.git
+      }
+   ```
 - (`cd flask-api-project`)
 
 **2.** Create a virtual environment and activate it:
@@ -88,7 +92,8 @@ You can copy the following code if you like (BASH):
 
 ## API Endpoints
 <a name="api-endpoints"></a>
-**1.** Login (Generate Token) - You can copy the following code if you like (json):
+You can copy the following code if you like (json):
+**1.** Login (Generate Token):
 - URL: (`/login`)
 - Method: (`POST`)
 - Data:
@@ -147,8 +152,8 @@ The API is deployed on Heroku at this [URL](https://flask-api-project-eff327bad6
 <a name="deploy-to-heroku"></a>
 If you want to deploy your own version on Heroku:
 
+You can copy the code if you like (BASH):
 **1.** Create a new Heroku app -
-Copy code if you like (BASH):
 - (`heroku create your-app-name`)
 
 **2.** Push your code to Heroku:
