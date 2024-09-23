@@ -4,11 +4,13 @@ This project is a simple RESTful API built with Python's Flask framework, demons
 
 # Features:
 User Authentication: Login functionality that generates a JSON Web Token (JWT) for secure access to protected endpoints.
+-
 CRUD Operations:
 - Create: Add new users to the database.
 - Read: Retrieve a list of all users.
 - Update: Modify user details.
 - Delete: Remove users from the database.
+- 
 Error Handling: Basic error handling for common HTTP errors (404, 500, etc.).
 
 # Technologies Used:
@@ -28,23 +30,23 @@ Error Handling: Basic error handling for common HTTP errors (404, 500, etc.).
 - pip for managing Python packages
 
 # Installation
-1. Clone the repository to your local machine:
+**1.** Clone the repository to your local machine:
 You can copy the following code if you like (BASH):
 - git clone https://github.com/fidelfunez/flask-api-project.git
 - cd flask-api-project
 
-2. Create a virtual environment and activate it:
+**2.** Create a virtual environment and activate it:
 - python3 -m venv venv
 - source venv/bin/activate
 
-3. Install the required dependencies:
+**3.** Install the required dependencies:
 - pip install -r requirements.txt
 
-4. Run the Flask app:
+**4.** Run the Flask app:
 - flask run
 
 # API Endpoints
-1. Login (Generate Token):
+**1.** Login (Generate Token):
 - URL: /login
 - Method: POST
 - Data:
@@ -60,7 +62,7 @@ You can copy the following code if you like (BASH):
   "access_token": "your_jwt_token"
 }
 
-2. Get All Users:
+**2.** Get All Users:
 - URL: /users
 - Method: GET
 - Headers:
@@ -78,7 +80,7 @@ You can copy the following code if you like (BASH):
   ]
 }
 
-3. Create User:
+**3.** Create User:
 - URL: /users
 - Method: POST
 - Data:
@@ -88,7 +90,7 @@ You can copy the following code if you like (BASH):
   "email": "john@example.com"
 }
 
-4. Update User
+**4.** Update User
 - URL: /users/<user_id>
 - Method: PUT
 - Data:
@@ -97,24 +99,24 @@ You can copy the following code if you like (BASH):
   "name": "Updated Name"
 }
 
-5. Delete User
+**5.** Delete User
 - URL: /users/<user_id>
 - Method: DELETE
 
 # Deployment
-The API is deployed on Heroku at this URL. You can use the endpoints as described above by replacing the localhost URLs with the live link.
+The API is deployed on Heroku at this URL: https://flask-api-project-eff327bad6ee.herokuapp.com/. You can use the endpoints as described above by replacing the localhost URLs with the live link.
 
 **Deploy to Heroku**
 If you want to deploy your own version on Heroku:
-
-1. Create a new Heroku app:
+-
+**1.** Create a new Heroku app:
 Copy code if you like (BASH):
 - heroku create your-app-name
 
-2. Push your code to Heroku:
+**2.** Push your code to Heroku:
 - git push heroku main
 
-3. Scale the web dyno:
+**3.** Scale the web dyno:
 - heroku ps:scale web=1
   
 # Future Improvements
