@@ -1,6 +1,6 @@
 ## Flask API Project
 
-## Project Overview
+**Project Overview**
 <a name="project-overview"></a>
 This project is a simple RESTful API built with Python's Flask framework, demonstrating how to manage user data with token-based authentication (JWT) and perform basic CRUD (Create, Read, Update, Delete) operations on a user database. The API is deployed on Heroku, making it accessible over the web.
 
