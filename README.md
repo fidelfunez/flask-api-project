@@ -2,6 +2,20 @@
 **Project Overview:**
 This project is a simple RESTful API built with Python's Flask framework, demonstrating how to manage user data with token-based authentication (JWT) and perform basic CRUD (Create, Read, Update, Delete) operations on a user database. The API is deployed on Heroku, making it accessible over the web.
 
+## Table of Contents
+
+1. [Project Overview](#project-overview)
+2. [Features](#features)
+3. [Technologies Used](#technologies-used)
+4. [Getting Started](#getting-started)
+   1. [Prerequisites](#prerequisites)
+   2. [Installation](#installation)
+5. [API Endpoints](#api-endpoints)
+6. [Deployment](#deployment)
+   1. [Deploy to Heroku](#deploy-to-heroku)
+7. [Future Improvements](#future-improvements)
+8. [License](#license)
+
 # Features:
 
 - User Authentication: Login functionality that generates a JSON Web Token (JWT) for secure access to protected endpoints.
