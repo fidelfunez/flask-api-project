@@ -29,7 +29,6 @@ This project is a simple RESTful API built with Python's Flask framework, demons
   - Update: Modify user details.
   - Delete: Remove users from the database.
   
-- Error Handling: Basic error handling for common HTTP errors (404, 500, etc.).
 - ### Error Handling
 
 The API implements basic error handling for common issues. For example:
@@ -42,6 +41,15 @@ The API implements basic error handling for common issues. For example:
     "error": "User not found"
   }
 
+- **500 Internal Server Error:** For unexpected errors, the server will respond with a 500 status.
+
+Example Response:
+
+json
+Copy code
+{
+  "error": "Internal Server Error"
+}
 
 ## Technologies Used:
 <a name="technologies-used"></a>
