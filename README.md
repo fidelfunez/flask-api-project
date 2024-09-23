@@ -41,8 +41,8 @@ This project is a simple RESTful API built with Python's Flask framework, demons
 
 # Getting Started
 <a name="getting-started"></a>
+**Disclaimer: These steps are primarily for someone who wants to recreate the project on their own machine or deploy it themselves, but they can also be used to run and interact with the already-deployed project (mine).**
 - To recreate the project, follow these steps:
-- Disclaimer: These steps are primarily for someone who wants to recreate the project on their own machine or deploy it themselves, but they can also be used to run and interact with the already-deployed project (mine).
 
 # Prerequisites
 <a name="prerequisites"></a>
