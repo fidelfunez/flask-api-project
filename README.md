@@ -11,7 +11,7 @@ This project is a simple RESTful API built with Python's Flask framework, demons
   - Update: Modify user details.
   - Delete: Remove users from the database.
   
-Error Handling: Basic error handling for common HTTP errors (404, 500, etc.).
+- Error Handling: Basic error handling for common HTTP errors (404, 500, etc.).
 
 # Technologies Used:
 - Python: Main programming language.
@@ -101,6 +101,7 @@ You can copy the following code if you like (BASH):
 The API is deployed on Heroku at this URL: https://flask-api-project-eff327bad6ee.herokuapp.com/. You can use the endpoints as described above by replacing the localhost URLs with the live link.
 
 **Deploy to Heroku**
+
 If you want to deploy your own version on Heroku:
 -
 **1.** Create a new Heroku app -
