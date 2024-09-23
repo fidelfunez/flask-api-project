@@ -60,8 +60,9 @@ The API implements basic error handling for common issues. For example:
 
 ## Getting Started
 <a name="getting-started"></a>
-**Disclaimer: These steps are primarily for someone who wants to recreate the project on their own machine or deploy it themselves, but they can also be used to run and interact with the already-deployed project (mine).**
-- To recreate the project, follow these steps:
+**Disclaimer: These steps are primarily for someone who wants to recreate the project on their own machine or deploy it themselves, but they can also be used to run and interact with the already-deployed project (mine).** 
+
+### To recreate the project, follow these steps:
 
 ## Prerequisites
 <a name="prerequisites"></a>
