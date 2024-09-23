@@ -5,20 +5,19 @@ This project is a simple RESTful API built with Python's Flask framework, demons
 # Features:
 User Authentication: Login functionality that generates a JSON Web Token (JWT) for secure access to protected endpoints.
 CRUD Operations:
-_Create: Add new users to the database.
-Read: Retrieve a list of all users.
-Update: Modify user details.
-Delete: Remove users from the database.
-_
+- Create: Add new users to the database.
+- Read: Retrieve a list of all users.
+- Update: Modify user details.
+- Delete: Remove users from the database.
 Error Handling: Basic error handling for common HTTP errors (404, 500, etc.).
 
 # Technologies Used:
-Python: Main programming language.
-Flask: Web framework for building the API.
-Flask-SQLAlchemy: ORM (Object Relational Mapper) for database management.
-Flask-JWT-Extended: For handling authentication with JSON Web Tokens.
-Gunicorn: WSGI server for deploying the app on Heroku.
-Heroku: Cloud platform for deploying the application.
+* Python: Main programming language.
+* Flask: Web framework for building the API.
+* Flask-SQLAlchemy: ORM (Object Relational Mapper) for database management.
+* Flask-JWT-Extended: For handling authentication with JSON Web Tokens.
+* Gunicorn: WSGI server for deploying the app on Heroku.
+* Heroku: Cloud platform for deploying the application.
 
 # Getting Started
 To recreate the project, follow these steps:
