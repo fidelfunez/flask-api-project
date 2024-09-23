@@ -4,14 +4,12 @@ This project is a simple RESTful API built with Python's Flask framework, demons
 
 # Features:
 
-User Authentication: Login functionality that generates a JSON Web Token (JWT) for secure access to protected endpoints.
-
--
-CRUD Operations:
-- Create: Add new users to the database.
-- Read: Retrieve a list of all users.
-- Update: Modify user details.
-- Delete: Remove users from the database.
+- User Authentication: Login functionality that generates a JSON Web Token (JWT) for secure access to protected endpoints.
+- CRUD Operations:
+  - Create: Add new users to the database.
+  - Read: Retrieve a list of all users.
+  - Update: Modify user details.
+  - Delete: Remove users from the database.
   
 Error Handling: Basic error handling for common HTTP errors (404, 500, etc.).
 
