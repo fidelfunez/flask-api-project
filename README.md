@@ -102,6 +102,7 @@ flask run
 ## API Endpoints
 <a name="api-endpoints"></a>
 You can copy the following code if you like (json):
+
 **1.** Login (Generate Token):
 - URL: (`/login`)
 - Method: (`POST`)
@@ -162,14 +163,21 @@ The API is deployed on Heroku at this [URL](https://flask-api-project-eff327bad6
 If you want to deploy your own version on Heroku:
 
 You can copy the code if you like (BASH):
+
 **1.** Create a new Heroku app -
-- (`heroku create your-app-name`)
+```bash
+heroku create your-app-name
+```
 
 **2.** Push your code to Heroku:
-- (`git push heroku main`)
+```bash
+git push heroku main
+```
 
 **3.** Scale the web dyno:
-- (`heroku ps:scale web=1`)
+```bash
+heroku ps:scale web=1
+```
   
 ## Future Improvements
 <a name="future-improvements"></a>
