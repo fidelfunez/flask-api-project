@@ -17,7 +17,8 @@ This project is a simple RESTful API built with Python's Flask framework, demons
 6. [Deployment](#deployment)
    1. [Deploy to Heroku](#deploy-to-heroku)
 7. [Future Improvements](#future-improvements)
-8. [License](#license)
+8. [Contributing](#contributing)
+9. [License](#license)
 
 ## Features:
 <a name="features"></a>
@@ -187,7 +188,7 @@ heroku ps:scale web=1
 - Improve error handling and logging.
 
 ## Contributing
-
+<a name="contributing"></a>
 Contributions are welcome! If you'd like to contribute, please follow these steps:
 
 1. Fork the repository.
