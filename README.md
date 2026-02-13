@@ -201,4 +201,4 @@ For major changes, please open an issue first to discuss what you'd like to chan
 
 ## License
 <a name="license"></a>
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - Use it, fork, it, do whatever!
